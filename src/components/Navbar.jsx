@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/Nabvar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-dark py-2 bg-dark">
+    <div className='navbarSection'>
+      <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand fs-1 fw-bold text-light" href="#">slalom</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +26,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  <button type="button" class="btn btn-outline-light btn-sm px-4">le's talk</button>
+                  <button type="button" class="btn btn-outline-light btn-sm px-md-4">le's talk</button>
                 </a>
               </li>
               <li className="nav-item dropdown">

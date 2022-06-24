@@ -1,0 +1,11 @@
+.navbarSection {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 920px) {
+  .navbarSection:hover {
+    background: #000000;
+  }
+}
