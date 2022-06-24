@@ -1,0 +1,37 @@
+.main .carousel-inner img{
+  max-height: 50vh;
+  object-fit: cover; 
+  filter: grayscale(20%);
+}
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+}
+.slogan {
+  font-size: 75px;
+}
+@media (max-width: 920px) {
+  .main .carousel-inner img{
+    max-height: 280px;
+  }
+  .slogan {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .carousel-inner img{
+    max-height: 68vh;
+  }
+  .slogan {
+    font-size: 85px;
+  }
+}
