@@ -5,6 +5,10 @@
   right: 0;
 }
 @media (max-width: 920px) {
+  .navbarSection {
+    position: absolute;
+    padding: 0 80px 0 80px ;
+  }
   .navbarSection:hover {
     background: #000000;
   }

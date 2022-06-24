@@ -1,15 +1,18 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Main from '../components/Main'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Layout from '../containers/Layout'
+import Home from '../pages/Home'
 import '@styles/global.css'
-
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Main />
-    </div>
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route path = '/' element = { <Home /> } />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
   )
 }
 
