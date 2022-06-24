@@ -1,0 +1,31 @@
+{
+  "name": "slalomchallenge",
+  "version": "1.0.0",
+  "description": "Clonacion de pagina web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elchicogamer117/slalomChallenge.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "react",
+    "github",
+    "webpack"
+  ],
+  "author": "Elchicogamer117 <cfloresm1604@alumno.ipn.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Elchicogamer117/slalomChallenge/issues"
+  },
+  "homepage": "https://github.com/Elchicogamer117/slalomChallenge#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
