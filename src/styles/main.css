@@ -16,7 +16,7 @@
   color: white;
 }
 .slogan {
-  font-size: 75px;
+  font-size: 50px;
 }
 @media (max-width: 920px) {
   .main .carousel-inner img{

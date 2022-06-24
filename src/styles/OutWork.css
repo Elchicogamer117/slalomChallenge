@@ -1,0 +1,34 @@
+:root {
+  --blue-secundary: #0c62fb;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--blue-secundary);
+  text-decoration: none;
+}
+.title:hover {
+  text-decoration-line: underline;
+}
+.description {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111111;
+}
+.btnBlue {
+  padding: 4px;
+}
+@media (max-width: 768px) {
+  .title{
+    font-size: 11px;
+  }
+  .description {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .description {
+    font-size: 44px;
+  }
+}
