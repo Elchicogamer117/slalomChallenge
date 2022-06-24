@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "student",
+    "image": "https://www.slalom.com/sites/default/files/2022-04/Persist-Nashville_Portrait_605x560.jpg",
+    "title": "Persist Nashville",
+    "description": "Helping more students earn college degrees"
+  },
+  {
+    "id": "2",
+    "name": "partner",
+    "image": "https://www.slalom.com/sites/default/files/2022-04/Fairstone_Portrait_605x560.jpg",
+    "title": "Fairstone Financial",
+    "description": "Moving deeper into the cloud"
+  },
+  {
+    "id": "3",
+    "name": "family",
+    "image": "https://www.slalom.com/sites/default/files/2022-02/Carters-portrait-landscape-605x560.jpg",
+    "title": "Carter’s",
+    "description": "The power of connected planning"
+  },
+  {
+    "id": "4",
+    "name": "sea",
+    "image": "https://www.slalom.com/sites/default/files/2022-02/Clean-up-australia-thumbnail-Portrait-605x560.jpg",
+    "title": "Clean Up Australia",
+    "description": "Data to protect the planet"
+  },
+  {
+    "id": "5",
+    "name": "life",
+    "image": "https://www.slalom.com/sites/default/files/2021-06/pacific-life-thumbnail-portrait-605x560.jpg",
+    "title": "Pacific Life",
+    "description": "Accelerating analytics with Snowflake"
+  },
+  {
+    "id": "6",
+    "name": "family",
+    "image": "https://www.slalom.com/sites/default/files/2022-04/LA-County-DPSS_SEO_605x560.jpg",
+    "title": "LA County DPSS",
+    "description": "Helping more students earn college degrees"
+  },
+  {
+    "id": "7",
+    "name": "grand_mother",
+    "image": "https://www.slalom.com/sites/default/files/2022-03/feeding-america-thumb-3-605x560.jpg",
+    "title": "Feeding America",
+    "description": "Connecting food banks, ending hunger"
+  },
+  {
+    "id": "8",
+    "name": "stars",
+    "image": "https://www.slalom.com/sites/default/files/2022-02/log-thumbnail-landscape-605x340.jpg",
+    "title": "LogRhythm",
+    "description": "Streamlining the processes that power cybersecurity"
+  }
+]

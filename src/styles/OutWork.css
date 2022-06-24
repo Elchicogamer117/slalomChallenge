@@ -1,5 +1,8 @@
 :root {
   --blue-secundary: #0c62fb;
+  --smTitle: 11px;
+  --mdTitle: 17px;
+  --whiteColor: #FFFFFF;
 }
 
 .title {
@@ -17,14 +20,27 @@
   color: #111111;
 }
 .btnBlue {
-  padding: 4px;
+  font-size: var(--mdTitle);
+  padding: 12px 32px 12px 32px;
+  color: var(--blue-secundary);
+  border: 1px solid var(--blue-secundary);
+  background: var(--whiteColor) ;
+}
+.btnBlue:hover {
+  color: var(--whiteColor);
+  background: var(--blue-secundary);
+}
+.spc-b {
+  margin-bottom: 65px;
+}
+.cardsStudy {
+  display:  flex;
+  gap: 16px;
+  overflow-x: auto;
 }
 @media (max-width: 768px) {
   .title{
     font-size: 11px;
-  }
-  .description {
-    font-size: 22px;
   }
 }
 @media (min-width: 1200px) {
