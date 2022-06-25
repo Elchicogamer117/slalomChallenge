@@ -15,7 +15,7 @@ const OurWork = () => {
           <CardWork card={card} key={card.id} />
         ))}
       </div>
-      <div className='col-8 offset-2 py-4'>
+      <div className='col-8 offset-2 py-4 allCases'>
         <a href="/"> View all case studies </a>
       </div>
     </div>

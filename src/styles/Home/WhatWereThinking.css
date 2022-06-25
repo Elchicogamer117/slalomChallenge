@@ -1,38 +1,120 @@
 .whatWereThinking {
+  position: relative;
   background: #f3f4f5;
+  padding-bottom: 40px;
 }
 .containerWWT {
-  width: 68%;
+  width: 80%;
   margin: 0 auto 0 auto;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas: "aside title title" 
-                        "aside header header"
-                        "aside article article"
-                        "aside article article";
+  grid-template-columns: 1fr ;
+  /* grid-template-rows: repeat(4, auto); */
+  grid-template-areas: "title" 
+                        "header"
+                        "article"
+                        "aside";
 }
 .containerWWT .titleWWT {
   /* background-color: blue; */
-  margin-top: 70px;
+  margin-top: 120px;
   grid-area: title;
 }
 .containerWWT .headerWWT {
   /* background-color: blueviolet; */
   grid-area: header;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 12px;
 }
 .containerWWT .articleWWT {
   /* background-color: red; */
+  display: grid;
+  grid-template-columns:repeat(auto-fill, 440px);
+  justify-content: center;
+  /* gap: 25px; */
   grid-area: article;
-  margin: 50px 0 40px 0;
 }
 .containerWWT .asideWWT {
-  margin: 320px 140px 0 0;
-  /* background-color: orange; */
   grid-area: aside;
+}
+.containerWWT .asideWWT a:last-child {
+  margin-left: 50px;
+}
+@media (max-width: 589px) {
+  .containerWWT {
+    width: 100%;
+    grid-template-columns: 1fr ;
+    grid-template-areas: "title" 
+                          "header"
+                          "article"
+                          "aside";
+  }
+  .containerWWT .titleWWT {
+    margin: 65px 90px 0 80px;
+  }
+  .containerWWT .headerWWT {
+    margin: 0 90px 0 80px;
+  }
+  .containerWWT .articleWWT {
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+
+  }
+  .containerWWT .asideWWT {
+    margin: 0 60px 0 60px ;
+  }
+}
+@media (min-width: 1350px) {
+  .containerWWT {
+    width: 1300px;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-areas: "aside title " 
+                        "aside header "
+                        "aside article "
+                        "aside article ";
+  }
+  .containerWWT .titleWWT {
+    margin-top: 70px;
+  }
+  .containerWWT .headerWWT {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .containerWWT .articleWWT {
+    display: block;
+    margin: 50px 0 40px 0;
+  }
+  .containerWWT .asideWWT {
+    margin: 300px 140px 0 0;
+  }
+  .whatWereThinking .explorerMore {
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    width: 1000px;
+    height: 160px;
+    padding: 30px;
+    background: #0c62fb;
+    color: #FFFFFF;
+  }
+  .whatWereThinking .explorerMore span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .whatWereThinking .explorerMore p {
+    font-size: 22px;
+    /* font-weight: bold; */
+  }
+  .whatWereThinking .explorerMore .separation {
+    margin-top: 12px;
+    display: flex;
+  }
+  .whatWereThinking .explorerMore .separation a{
+    color: #FFFFFF;
+    margin: 4px 0 0 28px;
+  }
 }

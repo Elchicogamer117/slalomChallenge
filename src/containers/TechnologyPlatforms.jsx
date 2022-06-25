@@ -13,9 +13,9 @@ const TechnologyPlatforms = () => {
           <PlatformTech platform={platform} key={platform.id} />
         ))}
       </div>
-      <div className='row' > 
-        <p className=' col-6 offset-3 descriptionTP col-md-3 offset-md-3'> We have strong partnerships with the world's top tech companies. </p>
-        <div className='col-6 offset-3 col-md-4 offset-md-2'>
+      <div className='offset-3 respTP' > 
+      <p className=' col-md-4 descriptionTP'> We have strong partnerships with the world's top tech companies. </p>
+        <div className='col-md-3 '>
           <MainButton text={'View all'} />
         </div>
       </div>

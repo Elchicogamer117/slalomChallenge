@@ -26,6 +26,10 @@
   gap: 16px;
   overflow-x: auto;
 }
+.allCases a {
+  font-size: 17px;
+  font-weight: 500;
+}
 @media (max-width: 768px) {
   .title{
     font-size: 11px;

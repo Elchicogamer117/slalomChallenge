@@ -1,11 +1,15 @@
-.whoWeAreCont{
-  margin: 72px;
-  font-size: 20px;
-  color: #FFFFFF00;
+.containerWWAC {
+  display: grid;
+  margin-top: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "container info circle " ;
+  /* background-color: orange; */
 }
 .containerWWA {
   position: relative;
-  height: 540px;
+  height: 550px;
+  grid-area: container;
+  /* background-color: aqua; */
 }
 .midCircleImg img{
   position: absolute;
@@ -24,6 +28,10 @@
   height: 426px;
   object-fit: cover;
 }
+.infoWWAC{
+  grid-area: info;
+  /* background-color: bisque; */
+}
 .headerWWA {
   font-size: 20px;
   font-weight: 700;
@@ -36,11 +44,21 @@
   color: #737373;
   margin-bottom: 100px;
 }
+.circleImage {
+  grid-area: circle;
+}
 .circleImage img {
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 @media (max-width: 768px) {
+  .containerWWAC {
+    margin: 60px 0 20px 0;
+    grid-template-columns: 1fr;
+    grid-template-areas: "container" 
+    "info"
+    "circle";
+  }
   .whoWeAreCont {
     margin: 20px;
   }
@@ -70,11 +88,15 @@
   }
 }
 @media (min-width: 1200px) {
+  .containerWWAC {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "container info circle";
+  }
   .midCircleImg img{
     top: -160px;
     right: 90px;
-    width: 311px;
-    height: 310px;
+    width: 310px;
+    height: 311px;
   }
   .rectangleImg img {
     bottom: -120px;
@@ -87,7 +109,7 @@
     font-size: 20px;
   }
   .circleImage img {
-    width: 80%;
-    margin-left: 100px;
+    width: 75%;
+    margin-left: 85px;
   }
 }

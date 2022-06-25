@@ -24,9 +24,18 @@ const WhatWereThinking = () => {
             {AllNews.map(allNews => (
               <CardNews allNews={allNews} key={allNews.id} />
             ))}
+            <a href="/"> Newsroom </a>
+            <a href="/"> Insights </a>
         </aside>
       </div>
+      <div className='explorerMore'>
+        <span> explore the future</span>
+        <div className='separation'>
+          <p> Unleash creativity and innovation with Slalom Element. </p>
+          <a href="/"> learn more</a>
+        </div>
 
+      </div>
       
     </section>
   )

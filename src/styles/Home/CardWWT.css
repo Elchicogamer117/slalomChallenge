@@ -1,14 +1,14 @@
 .headerCWWT {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bold;
   height: 30px;
   margin: 0;
 }
 .cardWWT {
   position: relative;
-  width: 340px;
-  height: 415px;
-  margin-bottom: 50px;
+  width: 400px;
+  height: 475px;
+  margin-bottom: 20px;
 }
 .cardWWT img{
   width: 100%;
@@ -20,9 +20,10 @@
   bottom: 0;
   right: 0;
   width: 306px;
-  height: 100px;
+  height: 80px;
   padding: 20px 30px 20px 24px;
   font-size: 14px;
+  font-weight: 600;
   background: #FFFFFF;
 }
 .cardWWT:hover > .descriptionCWWT{
@@ -43,10 +44,11 @@
     height: 90px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1350px) {
   .cardWWT {
     width: 864px;
-    height: 415px;
+    height: 425px;
+    margin-bottom: 80px;
   }
   .cardWWT img{
     width: 864px;

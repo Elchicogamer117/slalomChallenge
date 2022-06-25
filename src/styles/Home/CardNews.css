@@ -1,4 +1,5 @@
 .cardNews {
+  width: 100%;
   text-decoration: none;
   background-color: rgb(151, 99, 31);
 }
@@ -6,13 +7,14 @@
   font-size: 14px;
   font-weight: bold;
   color: #595959;
+  margin-bottom: 12px;
 }
 .cardNews .headline {
   font-size: 18px;
   font-weight: 400;
   color: #111111;
   margin-bottom: 50px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 .cardNews:hover {
   color: aqua;

@@ -10,20 +10,19 @@ const WhoWeAreCont = () => {
 
   return (
     <section >
-      <div className="row " >
-        <p className='whoWeAreCont'> space </p>
-        <div className="col-md-3 col-lg-4 containerWWA">
+      <div className="containerWWAC">
+
+        <div className="containerWWA">
           <div className='midCircleImg'>
-            <img src={midCircleImg} alt="" />
+            <img src={midCircleImg} alt="circulo" />
           </div>
           <div className='rectangleImg'>
-            <img src={rectangleImg} alt="" />
+            <img src={rectangleImg} alt="rectangulo" />
           </div>
-
         </div>
 
 
-        <div className="col-md-6 col-lg-4" >
+        <div className="infoWWAC">
           <div className='rpvSm'>
             <a href="/" className='title titleWWA'> WHO WE ARE </a>
             <p className='headerWWA'> We’re advisors, strategists, and engineers focused on people, above all else. </p>
@@ -34,9 +33,10 @@ const WhoWeAreCont = () => {
           </div>
         </div>
 
-        <div className="col-md-3 col-lg-4 circleImage">
-          <img src={circleImg} alt="Working" />
+        <div className="circleImage">
+          <img src={circleImg} alt="Working" className='circle'/>
         </div>
+
       </div>
 
     </section>
