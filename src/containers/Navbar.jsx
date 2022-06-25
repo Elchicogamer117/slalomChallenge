@@ -3,7 +3,7 @@ import '../styles/Nabvar.css'
 
 const Navbar = () => {
   return (
-    <div className='navbarSection'>
+    <div className='navbarSection mt-2'>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand fs-1 fw-bold text-light" href="#">slalom</a>
@@ -11,22 +11,22 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav ms-auto ">
+            <ul className="navbar-nav ms-auto sections">
               <li className="nav-item ">
-                <a className="nav-link text-light me-2" aria-current="page" href="#">what we do</a>
+                <a className="nav-link text-light me-5" aria-current="page" href="#">what we do</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light me-2" href="#">who we are</a>
+                <a className="nav-link text-light me-5" href="#">who we are</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light me-2" href="#">insights</a>
+                <a className="nav-link text-light me-5" href="#">insights</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light me-2" href="#">carrers</a>
+                <a className="nav-link text-light me-5" href="#">carrers</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  <button type="button" class="btn btn-outline-light btn-sm px-md-4">le's talk</button>
+                  <button type="button" class="btn btn-outline-light btn-sm px-md-4 me-5">le's talk</button>
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -43,7 +43,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
     </div>
   )
 }

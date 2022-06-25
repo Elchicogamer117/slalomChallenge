@@ -2,7 +2,7 @@ import React from 'react'
 import city from '../assets/images/city.jpg'
 import team from '../assets/images/teamwork.jpg'
 import confort from '../assets/images/confort.jpg'
-import '../styles/main.css'
+import '../styles/Main.css'
 
 const Main = () => {
   return (
@@ -30,7 +30,7 @@ const Main = () => {
         <div class="overlay">
         <div class="container h-100">
           <div class="row d-flex align-items-center h-100">
-            <div class="col-md-12 justify-content-center text-center text-md-start">
+            <div class="col-md-12 col-xl-8 justify-content-center text-center text-md-start">
               <p class="slogan">Building better tomorrows</p>
             </div>
           </div>

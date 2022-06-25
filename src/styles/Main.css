@@ -28,7 +28,7 @@
 }
 @media (min-width: 1200px) {
   .main .carousel-inner img{
-    max-height: 68vh;
+    max-height: 72vh;
   }
   .slogan {
     font-size: 85px;
