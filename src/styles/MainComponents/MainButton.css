@@ -1,12 +1,17 @@
 .btnBlue {
-  font-size: var(--mdTitle);
+  font-size: 14px;
+  font-weight: 600;
   padding: 12px 32px 12px 32px;
   color: var(--blue-secundary);
   border: 1px solid var(--blue-secundary);
   background: #ffffff00 ;
-
 }
 .btnBlue:hover {
   color: var(--whiteColor);
   background: var(--blue-secundary);
+}
+@media (min-width: 1200px) {
+  .btnBlue {
+    font-size: 17px;
+  }
 }
