@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Slalom named Google Cloud Services Partner of the Year for North America",
+    "date": "June 14, 2022",
+    "location": "Seattle, WA",
+    "description": "Slalom has been honored as the 2021 Google Cloud Services Partner of the Year for North America for the second year in a row."
+  },
+  {
+    "id": 2,
+    "title": "Slalom Named Snowflake Partner of the Year",
+    "date": "June 13, 2022",
+    "location": "Seattle, WA",
+    "description": "Slalom has for the fifth consecutive time been named a Partner of the Year by Snowflake, the Data Cloud company—this year specifically as Snowflake’s Americas Global SI Partner. The global consulting firm, which is focused on strategy, technology, and business transformation, was presented with the honor at this week’s Snowflake Summit 2022 ‘The World of Data Collaboration’."
+  },
+  {
+    "id": 3,
+    "title": "Slalom expands Workday relationship, joining its Application Management Services Partner program",
+    "date": "June 2, 2022",
+    "location": "Seattle, WA",
+    "description": " A longtime Workday Advisory Partner, Slalom has expanded its relationship with Workday, a leading provider of enterprise cloud applications for finance and human resources. The global consulting firm has joined Workday’s Application Management Services (AMS) Partner program."
+  },
+  {
+    "id": 4,
+    "title": "SSlalom supports Kawasaki's IoT innovation to address the challenge of rail track maintenance in North America",
+    "date": "May 19, 2022",
+    "location": "Tokyo, Japan",
+    "description": "Slalom and Kawasaki Heavy Industries, Ltd. (Kawasaki) have agreed to jointly develop a rail track maintenance support service that Kawasaki is beginning to deploy in the North American market."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "type": "solution",
+    "title": "AI for All",
+    "image": "https://www.slalom.com/sites/default/files/2021-04/AI-Thumbnail-2-605x560.jpg",
+    "description": "Think creatively and innovate boldly with the help of AI"
+  },
+  {
+    "id": 2,
+    "type": "article",
+    "title": "How to delight baseball fans—and your customers too",
+    "image": "https://www.slalom.com/sites/default/files/2022-04/Chicago-Cubs_Portrait_605x560.jpg",
+    "description": "Get inspired by a behind-the-scenes look at an unforgettable day for Chicago Cubs fans."
+  }
+]

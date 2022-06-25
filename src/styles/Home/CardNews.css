@@ -1,0 +1,19 @@
+.cardNews {
+  text-decoration: none;
+  background-color: rgb(151, 99, 31);
+}
+.cardNews .titleCN {
+  font-size: 14px;
+  font-weight: bold;
+  color: #595959;
+}
+.cardNews .headline {
+  font-size: 18px;
+  font-weight: 400;
+  color: #111111;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+.cardNews:hover {
+  color: aqua;
+}
