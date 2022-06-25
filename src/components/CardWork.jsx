@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/CardWork.css'
+import '../styles/Home/CardWork.css'
 
 const CardWork = ({ card }) => {
   return (
@@ -8,7 +8,7 @@ const CardWork = ({ card }) => {
         <p className='header'> case stydy </p>
         <img src={card.image} alt={card.name} />
         <div className='descriptionCW'>
-          <strong> {card.title} </strong>
+          <strong> {card.title}: </strong>
           <span> {card.description} </span>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/OutWork.css'
 import CardWork from '../components/CardWork'
 import caseStudy from '../assets/databases/CaseStudy.json'
+import '../styles/Home/OutWork.css'
 
 const OurWork = () => {
   return (

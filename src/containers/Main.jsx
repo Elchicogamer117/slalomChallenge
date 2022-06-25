@@ -2,7 +2,7 @@ import React from 'react'
 import city from '../assets/images/city.jpg'
 import team from '../assets/images/teamwork.jpg'
 import confort from '../assets/images/confort.jpg'
-import '../styles/Main.css'
+import '../styles/Home/Main.css'
 
 const Main = () => {
   return (
