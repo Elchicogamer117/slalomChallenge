@@ -1,0 +1,10 @@
+.platformTech {
+  width: 122px;
+  height: 70px;
+}
+.platformTech a img {
+  filter: contrast(5%) brightness(105%);
+}
+.platformTech a img:hover {
+  filter: none;
+}

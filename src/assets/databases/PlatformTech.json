@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "amazon",
+    "image": "https://www.slalom.com/sites/default/files/2019-12/platform-aws-up.svg",
+    "description": "Slalom is AWS National System Integrator (NSI) Partner of the Year for 2021!" 
+  },
+  {
+    "id": 2,
+    "name": "google",
+    "image": "https://www.slalom.com/sites/default/files/2019-12/platform-google-cloud-up.svg",
+    "description": "Proud to be 4x Partner of the Year winners" 
+  },
+  {
+    "id": 3,
+    "name": "Microsoft",
+    "image": "https://www.slalom.com/sites/default/files/2019-12/platform-microsoft-up.svg",
+    "description": "Transform your business by bringing innovation to every aspect of it with the vast Microsoft technology suite." 
+  },
+  {
+    "id": 4,
+    "name": "Salesforce",
+    "image": "https://www.slalom.com/sites/default/files/2019-12/platform-salesforce-up.svg",
+    "description": "Let's make the future better—for your business, your customers, and our shared communities." 
+  },
+  {
+    "id": 5,
+    "name": "snowflake",
+    "image": "https://www.slalom.com/sites/default/files/2020-12/platform-snowflake-140x70.svg",
+    "description": "Drive rapid insights with a scalable, modern data analytics solution in the cloud." 
+  },
+  {
+    "id": 6,
+    "name": "tableau",
+    "image": "https://www.slalom.com/sites/default/files/2019-12/platform-tableau-up.svg",
+    "description": "Transform the way your organization accesses and uses data." 
+  }
+]

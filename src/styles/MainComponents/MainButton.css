@@ -1,0 +1,12 @@
+.btnBlue {
+  font-size: var(--mdTitle);
+  padding: 12px 32px 12px 32px;
+  color: var(--blue-secundary);
+  border: 1px solid var(--blue-secundary);
+  background: #ffffff00 ;
+
+}
+.btnBlue:hover {
+  color: var(--whiteColor);
+  background: var(--blue-secundary);
+}

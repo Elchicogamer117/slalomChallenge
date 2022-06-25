@@ -4,7 +4,6 @@
   --mdTitle: 17px;
   --whiteColor: #FFFFFF;
 }
-
 .title {
   font-size: 17px;
   font-weight: bold;
@@ -18,17 +17,6 @@
   font-size: 22px;
   font-weight: 600;
   color: #111111;
-}
-.btnBlue {
-  font-size: var(--mdTitle);
-  padding: 12px 32px 12px 32px;
-  color: var(--blue-secundary);
-  border: 1px solid var(--blue-secundary);
-  background: var(--whiteColor) ;
-}
-.btnBlue:hover {
-  color: var(--whiteColor);
-  background: var(--blue-secundary);
 }
 .spc-b {
   margin-bottom: 65px;
