@@ -19,7 +19,7 @@ const Footer = () => {
         </p>
         <aside className='whatwedoFt'> 
           <Link to='/' className='fistChild'> What we do </Link>
-          <p>___________________________</p>
+          <p>_________________________</p>
           <Link to='/'> Strategy </Link>
           <Link to='/'> Technology </Link>
           <Link to='/'> Industries </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
         </aside>
         <aside className='platformsFt'>
           <Link to='/' className='fistChild'> Platforms </Link>
-          <p>___________________________</p>
+          <p>_________________________</p>
           <Link to='/'> AWS </Link>
           <Link to='/'> Google Cloud </Link>
           <Link to='/'> Microsoft </Link>
@@ -37,19 +37,25 @@ const Footer = () => {
         </aside>
         <aside className='whoweareFt'>
           <Link to='/' className='fistChild'> Who we are </Link>
-          <p>___________________________</p>
+          <p>_________________________</p>
           <Link to='/'> Culture </Link>
           <Link to='/'> Inclusion, diversity and equity </Link>
           <Link to='/'> SustainabiLinkty and impact </Link>
           <Link to='/'> Newsroom </Link>
         </aside>
-        <header className='othersHdFt'>
+        <header className='othersHdFt fistChild'>
           <Link to='/'> Insights </Link>
           <Link to='/'> Careers </Link>
           <Link to='/'> Locations </Link>
         </header>
         <aside className='divisionFt'>
-        <p>______________________________________________________________________________________________________</p>
+        <p>_______________________________________________________________________________________________</p>
+        </aside>
+        <aside className='divisionLargeFt'>
+        <p>_________________________________________________________________________________________________________________________</p>
+        </aside>
+        <aside className='divisionSmallFt'>
+        <p>_____________________________________________________________</p>
         </aside>
         <aside className='socialNet'>
           <a href="https://www.facebook.com/slalomconsulting">
@@ -76,6 +82,7 @@ const Footer = () => {
         </aside>
         <aside className='finaltextFt' >
           <Link to='/'> Love your future </Link>
+          <aside className='figureFt'> </aside>
         </aside>
 
       </section>

@@ -1,18 +1,23 @@
 .footer {
   background: #262626;
   margin-top: 80px;
-  padding: 60px 0 80px;
+  padding: 60px 0 20px 0;
 }
 .containerFt {
-  width: 1300px;
+  width: 400px;
   margin: 0 auto 0 auto;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 2fr 1fr 1fr 1fr .8fr;
-  grid-template-areas: "slalom whatwedo patforms whoweare others"
-                      "description whatwedo patforms whoweare others"
-                      "description division division division others"
-                      "social documents register register finaltext";
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas: " slalom slalom "
+                      " whatwedo patforms "
+                      "  whoweare others "
+                      " division division "
+                      " social social"
+                      " description description "
+                      " documents documents "
+                      " finaltext finaltext "
+                      " register register ";
 }
 .containerFt a {
   text-decoration: none;
@@ -34,7 +39,6 @@
   font-weight: 600;
   padding-right: 110px;
   grid-area: description;
-  
 }
 .slalomContFt a {
   text-decoration: underline;
@@ -49,8 +53,7 @@
   line-height: 1.8;
 }
 .fistChild {
-  font-size: 24px;
-  margin-bottom: 12px;
+  font-size: 18px;
 }
 .whatwedoFt {
   grid-area: whatwedo;
@@ -64,11 +67,17 @@
 }
 .othersHdFt {
   grid-area: others;
-  font-size: 24px;
   line-height: 2.4;
 }
-.divisionFt {
+.divisionSmallFt {
+  display: block;
   grid-area: division;
+}
+.divisionFt {
+  display: none;
+}
+.divisionLargeFt {
+  display: none;
 }
 .socialNet {
   grid-area: social;
@@ -76,7 +85,7 @@
 .socialNet img {
   width: 30px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(182deg) brightness(102%) contrast(103%);
-  margin: 40px 10px 0 0;
+  margin: 10px 10px 0 0;
   transition:.2s ease all;
 }
 .socialNet img:hover {
@@ -91,6 +100,103 @@
 }
 .finaltextFt {
   grid-area: finaltext;
+  position: relative;
   font-weight: bold;
-  margin-top: 60px;
+  margin: 0 0 20px 0;
+}
+.figureFt {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  border-radius: 0 0 0 100%;
+  background-color: #0c62fb;
+}
+@media (min-width: 768px) {
+  .containerFt {
+    width: 700px;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr .8fr;
+    grid-template-areas: " slalom slalom slalom slalom "
+                        " whatwedo patforms whoweare others "
+                        " division division division division "
+                        " social social social social "
+                        " description description description description "
+                        " documents documents documents documents "
+                        " finaltext finaltext finaltext finaltext "
+                        " register register register register ";
+  }
+  .divisionSmallFt {
+    display: none;
+  }
+  .divisionFt {
+    display: block;
+    grid-area: division;
+  }
+  .divisionLargeFt {
+    display: none;
+  }
+  .socialNet img {
+    margin: 40px 10px 0 0;
+
+  }
+}
+@media (min-width: 994px) {
+  .containerFt {
+    width: 900px;
+  }
+  .divisionFt {
+    display: none;
+  }
+  .divisionLargeFt {
+    display: block;
+    grid-area: division;
+  }
+  .figureFt {
+    left: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    padding: 60px 0 80px 0;
+  }
+  .containerFt {
+    width: 1150px;
+    grid-template-columns: 2fr 1fr 1fr 1fr .8fr;
+    grid-template-areas: "slalom whatwedo patforms whoweare others"
+                        "description whatwedo patforms whoweare others"
+                        "description division division division others"
+                        "social documents register register finaltext";
+  }
+  .slalomContFt {
+    padding-right: 100px;
+  }
+  .fistChild {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .finaltextFt {
+    margin: 60px 0 0 0;
+  }
+  .divisionFt {
+    display: block;
+    grid-area: division;
+  }
+  .divisionLargeFt {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .containerFt {
+    width: 1300px;
+  }
+  .slalomContFt {
+    padding-right: 110px;
+  }
+  .figureFt {
+    left: 200px;
+  }
 }
