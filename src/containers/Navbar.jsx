@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/Layout/Navbar.css'
 
 const Navbar = () => {
@@ -6,23 +7,23 @@ const Navbar = () => {
     <div className='navbarSection mt-2'>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
-          <a className="navbar-brand fs-1 fw-bold text-light" href="#">slalom</a>
+          <Link to="/" className="navbar-brand fs-1 fw-bold text-light">slalom</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto sections">
               <li className="nav-item ">
-                <a className="nav-link text-light me-5" aria-current="page" href="#">what we do</a>
+                <Link to='/WhatWeDo' className="nav-link text-light me-5" aria-current="page" >what we do</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light me-5" href="#">who we are</a>
+                <Link to='/WhoWeAre' className="nav-link text-light me-5">who we are</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light me-5" href="#">insights</a>
+                <Link to='/Insights' className="nav-link text-light me-5">insights</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light me-5" href="#">carrers</a>
+                <Link to='/Careers' className="nav-link text-light me-5">carrers</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
