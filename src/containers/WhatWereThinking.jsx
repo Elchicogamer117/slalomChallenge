@@ -34,9 +34,7 @@ const WhatWereThinking = () => {
           <p> Unleash creativity and innovation with Slalom Element. </p>
           <a href="/"> learn more</a>
         </div>
-
       </div>
-      
     </section>
   )
 }
