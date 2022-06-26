@@ -3,5 +3,10 @@ body {
   font-family: 'Jura', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Varela Round', sans-serif;
-
+}
+:root {
+  --blue-secundary: #0c62fb;
+  --smTitle: 11px;
+  --mdTitle: 17px;
+  --whiteColor: #FFFFFF;
 }

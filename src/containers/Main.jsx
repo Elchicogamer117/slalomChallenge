@@ -10,13 +10,13 @@ const Main = () => {
       <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false" >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={city} className="d-block w-100 h-50" alt="city" />
-          </div>
-          <div className="carousel-item">
             <img src={team} className="d-block w-100 h-50" alt="team" />
           </div>
           <div className="carousel-item">
             <img src={confort} className="d-block w-100 h-50" alt="confort" />
+          </div>
+          <div className="carousel-item">
+            <img src={city} className="d-block w-100 h-50" alt="city" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -37,7 +37,6 @@ const Main = () => {
         </div>
         </div>
       </div>
-
     </div>
 
   )

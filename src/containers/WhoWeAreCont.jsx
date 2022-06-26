@@ -21,7 +21,6 @@ const WhoWeAreCont = () => {
           </div>
         </div>
 
-
         <div className="infoWWAC">
           <div className='rpvSm'>
             <a href="/" className='title titleWWA'> WHO WE ARE </a>
@@ -38,7 +37,6 @@ const WhoWeAreCont = () => {
         </div>
 
       </div>
-
     </section>
   )
 }

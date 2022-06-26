@@ -9,6 +9,9 @@
   font-weight: 700;
   padding-top: 20px;
 }
+.sections a:hover{
+  text-decoration: underline;
+}
 @media (max-width: 920px) {
   .navbarSection {
     position: absolute;

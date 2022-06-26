@@ -84,9 +84,7 @@ const Footer = () => {
           <Link to='/'> Love your future </Link>
           <aside className='figureFt'> </aside>
         </aside>
-
       </section>
-
     </footer>
   )
 }

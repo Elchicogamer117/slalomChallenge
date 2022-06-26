@@ -3,13 +3,11 @@
   margin-top: 90px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "container info circle " ;
-  /* background-color: orange; */
 }
 .containerWWA {
   position: relative;
   height: 550px;
   grid-area: container;
-  /* background-color: aqua; */
 }
 .midCircleImg img{
   position: absolute;
@@ -31,7 +29,6 @@
 }
 .infoWWAC{
   grid-area: info;
-  /* background-color: bisque; */
 }
 .headerWWA {
   font-size: 20px;
