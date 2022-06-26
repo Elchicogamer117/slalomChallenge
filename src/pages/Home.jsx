@@ -4,6 +4,7 @@ import OurWork from '../containers/OurWork'
 import TechnologyPlatforms from '../containers/TechnologyPlatforms'
 import WhoWeAreCont from '../containers/WhoWeAreCont'
 import WhatWereThinking from '../containers/WhatWereThinking'
+import TheFutureIsToday from '../containers/CallToAction'
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
       </section>
       <section className='py-5'>
         <WhatWereThinking />
+      </section>
+      <section>
+        <TheFutureIsToday />
       </section>
     </div>
   )

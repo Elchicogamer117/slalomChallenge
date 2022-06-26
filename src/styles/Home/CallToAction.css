@@ -1,0 +1,47 @@
+.theFutureIsToday {
+  position: relative;
+  width: 800px;
+  margin: 80px auto 0 auto;
+  display: flex;
+}
+.theFutureIsToday h2 {
+  font-size: 40px;
+  font-weight: 400;
+  width: 60%;
+}
+.theFutureIsToday .callToAction {
+  position: absolute;
+  right: 0;
+  top:  32%;
+}
+@media (max-width: 992px) {
+  .theFutureIsToday {
+    display: block;
+    width: 320px;
+    margin: 80px 0 0 12%;
+  }
+  .theFutureIsToday h2 {
+    width: 100%;
+  }
+  .theFutureIsToday .callToAction {
+    position: initial;
+    right: 0;
+    top:  32%;
+  }
+}
+@media (min-width: 1200px) {
+  .theFutureIsToday {
+    width: 1000px;
+  }
+  .theFutureIsToday h2 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1440px) {
+  .theFutureIsToday {
+    width: 1100px;
+  }
+  .theFutureIsToday h2 {
+    width: 60%;
+  }
+}
