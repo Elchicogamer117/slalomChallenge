@@ -1,0 +1,96 @@
+.footer {
+  background: #262626;
+  margin-top: 80px;
+  padding: 60px 0 80px;
+}
+.containerFt {
+  width: 1300px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 1fr 1fr 1fr .8fr;
+  grid-template-areas: "slalom whatwedo patforms whoweare others"
+                      "description whatwedo patforms whoweare others"
+                      "description division division division others"
+                      "social documents register register finaltext";
+}
+.containerFt a {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition:.2s ease all;
+}
+.containerFt a:hover {
+  color: #ffffff80;
+}
+.containerFt p {
+  color: #FFFFFF;
+}
+.slalomHdFt {
+  font-size: 40px;
+  grid-area: slalom;
+}
+.slalomContFt {
+  font-size: 17px;
+  font-weight: 600;
+  padding-right: 110px;
+  grid-area: description;
+  
+}
+.slalomContFt a {
+  text-decoration: underline;
+}
+.whatwedoFt, .platformsFt,
+.whoweareFt, .othersHdFt,
+.documentsFt, .registerFt {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.fistChild {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.whatwedoFt {
+  grid-area: whatwedo;
+}
+.platformsFt {
+  grid-area: patforms;
+}
+.whoweareFt {
+  grid-area: whoweare;
+  padding-right: 40px;
+}
+.othersHdFt {
+  grid-area: others;
+  font-size: 24px;
+  line-height: 2.4;
+}
+.divisionFt {
+  grid-area: division;
+}
+.socialNet {
+  grid-area: social;
+}
+.socialNet img {
+  width: 30px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(182deg) brightness(102%) contrast(103%);
+  margin: 40px 10px 0 0;
+  transition:.2s ease all;
+}
+.socialNet img:hover {
+  opacity: 50%;
+}
+.documentsFt {
+  grid-area: documents;
+}
+.registerFt {
+  grid-area: register;
+  line-height: 3;
+}
+.finaltextFt {
+  grid-area: finaltext;
+  font-weight: bold;
+  margin-top: 60px;
+}
